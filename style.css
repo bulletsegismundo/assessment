@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background: #F2F6FF;
+  box-sizing: border-box;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto 0px;
+  padding: 0px 1rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-main > section {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  padding-right: 50px;
+}
+
+label {
+  margin: 10px 0 5px 0;
+}
+
+.accept-btn {
+  margin-top: 20px;
+  padding: .5rem;
+}
+
+.container-main section.container-message{
+  margin-top: 10vh;
+}
